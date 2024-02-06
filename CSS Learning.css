@@ -1,0 +1,255 @@
+*{
+
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 6%;
+    margin-top: 5px;
+}
+
+.logo{
+     background-image: url("UNI-LOGO.png");
+background-size:cover;
+height: 45px;
+width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-Del{
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 11px;
+}
+.add-Ind{
+font-size: 1rem;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+background-color:pink
+;
+width: 620px;
+height: 30px;
+border-radius: 10px;
+}
+
+.Search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 3px;
+    border-Top-right-radius: 3px;
+border: none;
+}
+
+.Search-input{
+width: 100%;
+font-size: 1rem;
+border: none;
+}
+
+.search-icon{
+width: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+background-color: rgb(93, 196, 93);
+border-bottom-right-radius: 3px;
+border-Top-right-radius: 3px;
+color: #212529;
+
+
+}
+span{
+font-size: 0.7rem;
+
+}
+.nav-account{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.nav-search :hover{
+    border: 3px solid green;
+}
+.nav-cart i{
+font-size: 28px;
+}
+.nav-cart{
+    font-size: 14px;
+    font-weight: 700;
+}
+.pannel{
+    height: 40px;
+    background-color: #393d42;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.panel-ops{
+display: flex;
+width: 70%;
+font-size: 0,8rem;
+
+
+}
+.panel-ops P{
+    display: inline;
+    margin: 15px;
+}
+.pannel-deals{
+
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.hero-section{
+
+    background-image: url("IPhone.png");
+    height: 550px;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: rgb(248, 234, 234);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:0px ;
+
+}
+.hero-msg a{
+    color: forestgreen;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+   
+}
+
+
+.box{
+border: 2px solid black;
+height: 350px;
+width: 23%;
+justify-content: space-evenly;
+background-color: white;
+padding: 20px 0px 15px;
+margin-top: 15px;
+
+}
+.box-image1{
+    height: 290px;
+    background-size: cover;
+    width: 90%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+    
+   
+    
+}
+.box-content{
+    margin-left: 0.3rem;
+    bottom: 1rem;
+
+}
+.box-content p{
+    color: #007185;
+}
+
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #393d42;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.foot-panel2{
+
+    background-color:#212529 ;
+    color: white;
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{ 
+    background-color: #212529;
+    color: white;
+    border-top: 0.5px solid white;
+
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("UNI-LOGO.png");
+background-size:cover;
+height: 45px;
+width: 100px;
+}
+.foot-panel4{
+    background-color: #212529;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.pages{
+
+    font-size: 0.7rem;
+    justify-content: center;
+    text-align: center;
+}
+.copywrite{
+    font-size: 0.7rem;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+}
